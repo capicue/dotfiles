@@ -1,0 +1,35 @@
+[user]
+	name = Stacey Touset
+	email = capicue@gmail.com
+[core]
+	excludesfile = /Users/stacey/.gitignore
+[rerere]
+	enabled = 1
+[color]
+	ui = auto
+[branch]
+	autosetupmerge = always
+	autosetuprebase = always
+[push]
+	default = upstream
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	current-branch = rev-parse --symbolic-full-name --abbrev-ref HEAD
+	shove = "!f() { H=$(git current-branch) && git push -u origin $H:$H; }; f"
+  cherry-bomb = "!f() { git rebase -p --onto $1^ $1; }; f"
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = Kaleidoscope
+[difftool]
+	prompt = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[mergetool]
+	prompt = false
+[merge]
+	tool = Kaleidoscope
