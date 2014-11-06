@@ -1,0 +1,7 @@
+" Change colorscheme
+colorscheme Tomorrow-Night-Bright
+
+" Make tabs two spaces wide
+set tabstop=2
+
+set guifont=InputMono\ Thin:h12
