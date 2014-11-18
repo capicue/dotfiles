@@ -1,3 +1,6 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = git@github.com:sorin-ionescu/prezto.git
+[submodule "janus/elm"]
+	path = janus/elm
+	url = git@github.com:lambdatoast/elm.vim.git
