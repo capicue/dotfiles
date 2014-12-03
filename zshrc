@@ -13,3 +13,4 @@ export PATH="/Users/capicue/bin:$PATH"
 eval "$(rbenv init -)"
 
 alias be='bundle exec'
+alias ghci="ghci -v0" # remove loading messages
