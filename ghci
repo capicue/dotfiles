@@ -1,4 +1,5 @@
 :set prompt "\ESC[36mλ>\ESC[m "
+:def hoogle \str -> return $ ":! hoogle --count=15 \"" ++ str ++ "\""
 
 -- cabal install IPPrint and HsColour to use the following
 
