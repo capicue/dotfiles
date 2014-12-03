@@ -6,6 +6,7 @@ fi
 export EDITOR=vim
 export PATH="/usr/local/bin:$PATH"
 export PATH="/Users/capicue/.rbenv/bin:$PATH"
+export PATH="/Users/capicue/.cabal/bin:$PATH"
 export PATH="/Users/capicue/bin:$PATH"
 
 # enables shims and autocompletion
