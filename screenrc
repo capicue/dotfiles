@@ -2,3 +2,5 @@ startup_message off
 defutf8 on
 
 term screen-256color
+
+defscrollback 30000
