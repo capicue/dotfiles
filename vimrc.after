@@ -5,3 +5,5 @@ colorscheme Tomorrow-Night-Bright
 set tabstop=2
 
 set guifont=InputMono\ Thin:h12
+
+set vb
