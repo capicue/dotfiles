@@ -7,3 +7,6 @@
 [submodule "janus/flash"]
 	path = janus/flash
 	url = git@github.com:endel/flashdevelop.vim.git
+[submodule "janus/gas"]
+	path = janus/gas
+	url = git@github.com:Shirk/vim-gas.git
