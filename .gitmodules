@@ -10,3 +10,9 @@
 [submodule "janus/gas"]
 	path = janus/gas
 	url = git@github.com:Shirk/vim-gas.git
+[submodule "janus/vim-jsx"]
+	path = janus/vim-jsx
+	url = git@github.com:mxw/vim-jsx.git
+[submodule "janus/vim-javascript"]
+	path = janus/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git
