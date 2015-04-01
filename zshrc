@@ -14,3 +14,5 @@ eval "$(rbenv init -)"
 
 alias be='bundle exec'
 alias ghci="ghci -v0" # remove loading messages
+
+setopt dvorak
