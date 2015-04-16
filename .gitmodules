@@ -16,3 +16,6 @@
 [submodule "janus/vim-javascript"]
 	path = janus/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
+[submodule "janus/vim-jsbeautify"]
+	path = janus/vim-jsbeautify
+	url = https://github.com/maksimr/vim-jsbeautify
