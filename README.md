@@ -41,6 +41,13 @@ $ rbenv install <latest version>
 $ rbenv global <lastest version>
 ```
 
+### Haskell
+```bash
+$ cabal install happy
+$ cabal install pretty-show
+$ cabal install HsColour
+```
+
 ### other
 ```bash
 $ brew install ack
