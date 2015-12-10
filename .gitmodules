@@ -1,24 +1,3 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = git@github.com:sorin-ionescu/prezto.git
-[submodule "janus/flash"]
-	path = janus/flash
-	url = git@github.com:endel/flashdevelop.vim.git
-[submodule "janus/gas"]
-	path = janus/gas
-	url = git@github.com:Shirk/vim-gas.git
-[submodule "janus/vim-jsx"]
-	path = janus/vim-jsx
-	url = git@github.com:mxw/vim-jsx.git
-[submodule "janus/vim-javascript"]
-	path = janus/vim-javascript
-	url = git@github.com:pangloss/vim-javascript.git
-[submodule "janus/vim-jsbeautify"]
-	path = janus/vim-jsbeautify
-	url = https://github.com/maksimr/vim-jsbeautify
-[submodule "janus/Align"]
-	path = janus/Align
-	url = git@github.com:vim-scripts/Align.git
-[submodule "janus/elm"]
-	path = janus/elm
-	url = git@github.com:ElmCast/elm-vim.git
