@@ -20,3 +20,6 @@ autocmd Filetype javascript setlocal ts=4 sw=4 expandtab
 autocmd FileType javascript noremap <buffer> <c-f> :call JsBeautify()<cr>
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
 autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+
+" Toggle NERDTree
+map <C-n> :NERDTreeToggle<CR>
