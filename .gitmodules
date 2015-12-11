@@ -22,3 +22,6 @@
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
 	url = git@github.com:mileszs/ack.vim.git
+[submodule "vim/bundle/matchit"]
+	path = vim/bundle/matchit
+	url = git@github.com:tmhedberg/matchit.git
