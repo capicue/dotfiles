@@ -44,6 +44,9 @@ set statusline+=Buf:#%n
 set statusline+=[%b][0x%B]
 
 
+" Remove left scrollbar
+set guioptions-=L
+
 " Make tabs two spaces wide
 set tabstop=2
 
