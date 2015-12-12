@@ -1,6 +1,7 @@
 export EDITOR=vim
 export PATH="/Users/capicue/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+export PATH="/Users/capicue/.cabal/bin:$PATH"
 export PATH=".cabal-sandbox/bin:$PATH"
 
 alias be='bundle exec'
