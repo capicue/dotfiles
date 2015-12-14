@@ -147,9 +147,24 @@ else
 
   imap <A-]> <Esc>>>i
   imap <A-[> <Esc><<i
+
+  " Bubble single lines
+  nmap <C-Up> [e
+  nmap <C-Down> ]e
+  nmap <C-k> [e
+  nmap <C-j> ]e
+
+  " Bubble multiple lines
+  vmap <C-Up> [egv
+  vmap <C-Down> ]egv
+  vmap <C-k> [egv
+  vmap <C-j> ]egv
 endif
 
 if has("gui_macvim") && has("gui_running")
   " Command-Shift-F on OSX
   map <D-F> :Ack<space>
 endif
+
+vmap  <expr>  <C-DOWN>   DVB_Drag('down')
+vmap  <expr>  <C-UP>     DVB_Drag('up')
