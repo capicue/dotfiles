@@ -52,3 +52,6 @@
 [submodule "vim/bundle/vim-pathogen-tomorrow-theme"]
 	path = vim/bundle/vim-pathogen-tomorrow-theme
 	url = git@github.com:coryf/vim-pathogen-tomorrow-theme.git
+[submodule "vim/bundle/vim-nix"]
+	path = vim/bundle/vim-nix
+	url = git@github.com:LnL7/vim-nix.git
