@@ -12,3 +12,6 @@ export NIX_PATH=/nix/var/nix/profiles/per-user/capicue/channels/nixos
 if [ -e /Users/capicue/.nix-profile/etc/profile.d/nix.sh ];
   then . /Users/capicue/.nix-profile/etc/profile.d/nix.sh
 fi
+
+# For awscli
+export JAVA_HOME=$(/usr/libexec/java_home)
