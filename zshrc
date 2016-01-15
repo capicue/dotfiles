@@ -8,7 +8,10 @@ fi
 # enables shims and autocompletion
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
-setopt dvorak
-
 # enable AWS CLI completion
 source /usr/local/share/zsh/site-functions/_aws
+
+# add hook for https://github.com/direnv/direnv
+eval "$(direnv hook zsh)"
+
+setopt dvorak
