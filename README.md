@@ -6,13 +6,12 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 
 ### rcm
 ```bash
-$ brew tap thoughtbot/formulae
-$ brew install rcm
+$ nix-env -i rcm
 ```
 
 ### zsh
 ```bash
-$ brew install zsh
+$ nix-env -i zsh
 $ cd ./zprezto
 $ git submodule init
 $ git submodule update
@@ -21,16 +20,11 @@ $ rcup -v
 
 ### tmux
 ```bash
-$ brew install reattach-to-user-namespace
-$ brew install tmux
+$ nix-env -i reattach-to-user-namespace
+$ nix-env -i tmux
 ```
 
-Then change Terminal.app's starting command to `/usr/local/bin/zsh`.
-
-### Janus
-```bash
-$ curl -Lo- https://bit.ly/janus-bootstrap | bash
-```
+Then change Terminal.app's starting command to `/Users/capicue/.nix-profile/bin/zsh`.
 
 ### ruby
 ```bash
@@ -50,7 +44,7 @@ $ cabal install HsColour
 
 ### other
 ```bash
-$ brew install ack
+$ nix-env -iA nixpkgs.ack
 ```
 
 ## Management
