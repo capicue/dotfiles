@@ -2,6 +2,11 @@
 
 These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 
+## Nix Stuff
+
+- search through haskell packages
+      ```nix-env -qaP -A nixpkgs.haskellPackages```
+
 ## Installation
 
 ### rcm
