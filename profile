@@ -16,3 +16,6 @@ fi
 
 # For awscli
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
