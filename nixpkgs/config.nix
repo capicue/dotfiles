@@ -11,7 +11,7 @@
           self.haskellPackages.ghcWithPackages
           (
             haskellPackages: with haskellPackages;
-            [ hscolour pretty-show ]
+            [ hscolour pretty-show ghc-mod ]
           );
       };
 }
