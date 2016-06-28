@@ -29,3 +29,15 @@ pass Email/capicue.gmail
 vim ~/.xmonad/xmonad.hs
 xmonad --recompile
 ```
+
+## SSH
+Copy over ~/.ssh
+
+```bash
+ssh-add ~/.ssh/id_rsa
+```
+
+## XResources
+```bash
+xrdb ~/.XResources
+```

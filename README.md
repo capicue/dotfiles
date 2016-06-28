@@ -41,6 +41,7 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 ### NixOS only
 
 - dmenu
+- linuxPackages.virtualboxGuestAdditions
 - ruby
 - vim
 - xmonad
