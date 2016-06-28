@@ -14,8 +14,7 @@ if [ -e /Users/capicue/.nix-profile/etc/profile.d/nix.sh ];
   then . /Users/capicue/.nix-profile/etc/profile.d/nix.sh
 fi
 
-# For awscli
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-export NVM_DIR=~/.nvm
-. $(brew --prefix nvm)/nvm.sh
+if type "nvm" > /dev/null; then
+  export NVM_DIR=~/.nvm
+  . $(brew --prefix nvm)/nvm.sh
+fi
