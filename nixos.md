@@ -17,14 +17,14 @@ nix-env -f "<nixpkgs>" -qaP -A haskellPackages
 sudo ls /media/sf_Shared
 ```
 
-# Pass (passwordstore.org)
+## Pass (passwordstore.org)
 ```
 pass init "Stacey Touset <capicue@gmail.com>"
 pass insert Email/capicue.gmail
 pass Email/capicue.gmail
 ```
 
-# XMonad
+## XMonad
 ```bash
 vim ~/.xmonad/xmonad.hs
 xmonad --recompile

@@ -2,66 +2,63 @@
 
 These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 
-## Nix Stuff
 
-- search through haskell packages
-      ```nix-env -qaP -A nixpkgs.haskellPackages```
+## Setup
 
-## Installation
+1. Install rcm.
 
-### rcm
-```bash
-$ nix-env -i rcm
-```
+2. Clone this repository and fetch the submodules.
+    ```bash
+    $ git clone git@github.com:capicue/dotfiles.git ~/.dotfiles
+    $ cd ~/.dotfiles
+    $ git submodule init
+    $ git submodule update
+    ```
 
-### zsh
-```bash
-$ nix-env -i zsh
-$ cd ./zprezto
-$ git submodule init
-$ git submodule update
-$ rcup -v
-```
+3. Link the dotfiles
+    ```bash
+    $ rcup -v
+    ```
 
-### tmux
-```bash
-$ nix-env -i reattach-to-user-namespace
-$ nix-env -i tmux
-```
 
-Then change Terminal.app's starting command to `/Users/capicue/.nix-profile/bin/zsh`.
+## Other things to install
 
-### ruby
-```bash
-$ brew install rbenv
-$ brew install ruby-build
-$ rbenv install -l
-$ rbenv install <latest version>
-$ rbenv global <lastest version>
-```
+- ack
+- zsh
 
-### Haskell
-```bash
-$ cabal install happy
-$ cabal install pretty-show
-$ cabal install HsColour
-```
 
-### other
-```bash
-$ nix-env -iA nixpkgs.ack
-```
+### OS X only
 
-## Management
+- ghc with global packages
+    ```bash
+    $ nix-env -iA nixpkgs.myHaskellEnv
+    ```
+- rbenv
+- reattach-to-user-namespace
+- tmux
 
-Add new rc files with `mkrc`.
 
-```bash
-$ mkrc ~/.bashrc
-```
+### NixOS only
 
-Update symlinks
+- dmenu
+- ruby
+- vim
+- xmonad
 
-```bash
-$ rcup -v
-```
+
+## Miscellaneous setup
+
+On OS X, change Terminal.app's starting command to zsh.
+
+
+## Managing dotfiles
+
+- Put existing dotfile under rcm management
+    ```bash
+    $ mkrc ~/.bashrc
+    ```
+
+- Update symlinks
+    ```bash
+    $ rcup -v
+    ```
