@@ -2,7 +2,7 @@
 	name = Stacey Touset
 	email = capicue@gmail.com
 [core]
-	excludesfile = /Users/capicue/.gitignore
+	excludesfile = ~/.gitignore
 [rerere]
 	enabled = 1
 [color]
