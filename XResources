@@ -1,21 +1,19 @@
-URxvt*background: #000000
-URxvt*foreground: #ffffff
-URxvt*scrollBar: false
-URxvt*font: xft:Liberation Mono:pixelsize=12
-
-*color0:  #2E3436
-*color1:  #a40000
-*color2:  #4E9A06
-*color3:  #C4A000
-*color4:  #3465A4
-*color5:  #75507B
-*color6:  #ce5c00
-*color7:  #babdb9
-*color8:  #555753
-*color9:  #EF2929
-*color10: #8AE234
-*color11: #FCE94F
-*color12: #729FCF
-*color13: #AD7FA8
-*color14: #fcaf3e
-*color15: #EEEEEC
+xterm*background: #000000
+xterm*foreground: #ffffff
+xterm*font: xft:Liberation Mono:pixelsize=12
+xterm*color0:  #2E3436
+xterm*color1:  #a40000
+xterm*color2:  #4E9A06
+xterm*color3:  #C4A000
+xterm*color4:  #3465A4
+xterm*color5:  #75507B
+xterm*color6:  #ce5c00
+xterm*color7:  #babdb9
+xterm*color8:  #555753
+xterm*color9:  #EF2929
+xterm*color10: #8AE234
+xterm*color11: #FCE94F
+xterm*color12: #729FCF
+xterm*color13: #AD7FA8
+xterm*color14: #fcaf3e
+xterm*color15: #EEEEEC
