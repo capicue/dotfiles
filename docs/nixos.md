@@ -7,37 +7,10 @@ sudo -i nixos-rebuild switch
 ```
 
 ## Listing packages
+
+First column is attribute path, second column is nix name.
+
 ```bash
 nix-env -qaP '*' --description
 nix-env -f "<nixpkgs>" -qaP -A haskellPackages
-```
-
-## Virtualbox
-```bash
-sudo ls /media/sf_Shared
-```
-
-## Pass (passwordstore.org)
-```
-pass init "Stacey Touset <capicue@gmail.com>"
-pass insert Email/capicue.gmail
-pass Email/capicue.gmail
-```
-
-## XMonad
-```bash
-vim ~/.xmonad/xmonad.hs
-xmonad --recompile
-```
-
-## SSH
-Copy over ~/.ssh
-
-```bash
-ssh-add ~/.ssh/id_rsa
-```
-
-## XResources
-```bash
-xrdb ~/.XResources
 ```
