@@ -8,7 +8,7 @@ alias be='bundle exec'
 alias ghci="ghci -v0" # remove loading messages
 
 # export NIX_PATH=/nix/var/nix/profiles/per-user/capicue/channels/nixos
-export NIX_PATH=nixpkgs=/Users/capicue/Code/github/NixOS/nixpkgs
+# export NIX_PATH=nixpkgs=/Users/capicue/Code/github/NixOS/nixpkgs
 
 if [ -e /Users/capicue/.nix-profile/etc/profile.d/nix.sh ];
   then . /Users/capicue/.nix-profile/etc/profile.d/nix.sh
