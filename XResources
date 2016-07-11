@@ -1,6 +1,9 @@
 xterm*background: #000000
 xterm*foreground: #ffffff
-xterm*font: xft:Liberation Mono:pixelsize=12
+
+xterm*faceName: Liberation Mono:size=10:antialias=true
+xterm*font: 7x13
+
 xterm*color0:  #2E3436
 xterm*color1:  #a40000
 xterm*color2:  #4E9A06
@@ -17,3 +20,5 @@ xterm*color12: #729FCF
 xterm*color13: #AD7FA8
 xterm*color14: #fcaf3e
 xterm*color15: #EEEEEC
+
+xterm*selectToClipboard: true
