@@ -1,5 +1,6 @@
 :set prompt "\ESC[36mλ>\ESC[m "
-:def hoogle \str -> return $ ":! hoogle --count=15 \"" ++ str ++ "\""
+:def hoogle \s -> return $ ":! hoogle search -cl --count=15 \"" ++ s ++ "\""
+:def doc \s -> return $ ":! hoogle search -cl --info \"" ++ s ++ "\""
 
 -- cabal install pretty-show and HsColour to use the following
 
