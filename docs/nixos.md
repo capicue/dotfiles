@@ -14,3 +14,10 @@ First column is attribute path, second column is nix name.
 nix-env -qaP '*' --description
 nix-env -f "<nixpkgs>" -qaP -A haskellPackages
 ```
+
+# Collect garbage
+
+```bash
+nix-env --delete-generations old
+nix-collect-garbage
+```
