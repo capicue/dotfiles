@@ -161,6 +161,10 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
   \ }
 
+" Elm
+
+let g:elm_format_autosave = 1
+
 ""
 "" Status Line
 "" https://github.com/carlhuda/janus/blob/master/janus/vim/core/before/plugin/statusline.vim
