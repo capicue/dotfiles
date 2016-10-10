@@ -52,6 +52,16 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 On OS X, change Terminal.app's starting command to zsh.
 
 
+## Add a Vim plugin
+
+```bash
+$ cd vim/bundle
+$ git submodule add git@github.com:scrooloose/nerdcommenter.git
+$ cd ../..
+$ rcup -v
+```
+
+
 ## Managing dotfiles
 
 - Put existing dotfile under rcm management

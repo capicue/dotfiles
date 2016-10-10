@@ -174,3 +174,14 @@ set statusline+=Line:%l/%L[%p%%]
 set statusline+=Col:%v
 set statusline+=Buf:#%n
 set statusline+=[%b][0x%B]
+
+" NERDCommenter
+
+if has("gui_macvim") && has("gui_running")
+  map <D-/> <plug>NERDCommenterToggle<CR>
+  imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
+else
+  map <leader>/ <plug>NERDCommenterToggle<CR>
+endif
+
+let g:NERDSpaceDelims = 1
