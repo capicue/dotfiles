@@ -1,4 +1,5 @@
 export EDITOR=vim
+export PATH="/Users/capicue/.local/bin:$PATH"
 export PATH="/Users/capicue/bin:$PATH"
 export PATH="/sbin:$PATH"
 export PATH="/usr/sbin:$PATH"
