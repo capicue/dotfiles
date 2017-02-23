@@ -22,7 +22,5 @@ if [ -e /Users/capicue/.nix-profile/etc/profile.d/nix.sh ];
   then . /Users/capicue/.nix-profile/etc/profile.d/nix.sh
 fi
 
-if type "nvm" > /dev/null; then
-  export NVM_DIR=~/.nvm
-  . $(brew --prefix nvm)/nvm.sh
-fi
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
