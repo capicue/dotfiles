@@ -25,6 +25,9 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 
 - ack
 - zsh
+- nvm
+- macvim
+- xcode
 
 
 ### OS X only
