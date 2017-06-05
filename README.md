@@ -28,6 +28,7 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 - nvm
 - macvim
 - xcode
+- [input font](http://input.fontbureau.com/)
 
 
 ### OS X only
