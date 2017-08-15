@@ -15,7 +15,14 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
     $ git submodule update
     ```
 
-3. Link the dotfiles
+3. Build vimproc's native extensions
+    ```bash
+    $ cd vim/bundle/vimproc.vim
+    $ make
+    $ cd ../../..
+    ```
+
+4. Link the dotfiles
     ```bash
     $ rcup -v
     ```
@@ -28,7 +35,10 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 - nvm
 - macvim
 - xcode
+- kaleidoscope & ksdiff
 - [input font](http://input.fontbureau.com/)
+- `brew cask install haskell-platform`
+- `cabal install ghc-mod`
 
 
 ### OS X only

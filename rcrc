@@ -1,1 +1,1 @@
-EXCLUDES="*:*.md:*.terminal"
+EXCLUDES="*.md:*.terminal"
