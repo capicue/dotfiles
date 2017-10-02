@@ -51,6 +51,7 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 - rbenv
 - reattach-to-user-namespace
 - tmux
+- open Tomorrow.terminal and set to default
 
 
 ### NixOS only
