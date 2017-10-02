@@ -7,6 +7,7 @@ fi
 
 # enables shims and autocompletion
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # add hook for https://github.com/direnv/direnv
 if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
