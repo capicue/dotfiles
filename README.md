@@ -35,6 +35,7 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 - nvm
 - macvim
 - xcode
+- elm-format
 - kaleidoscope & ksdiff
 - [input font](http://input.fontbureau.com/)
 - `brew cask install haskell-platform`
