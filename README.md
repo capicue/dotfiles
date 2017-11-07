@@ -77,6 +77,11 @@ $ cd ../..
 $ rcup -v
 ```
 
+## Update submodules
+
+```bash
+$ git submodule foreach git pull
+```
 
 ## Managing dotfiles
 
