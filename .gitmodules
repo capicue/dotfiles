@@ -67,3 +67,6 @@
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "vim/bundle/vim-autoformat"]
+	path = vim/bundle/vim-autoformat
+	url = git@github.com:Chiel92/vim-autoformat.git
