@@ -37,9 +37,10 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 - xcode
 - elm-format
 - kaleidoscope & ksdiff
-- [input font](http://input.fontbureau.com/)
 - `brew cask install haskell-platform`
 - `cabal install ghc-mod`
+- [input font](http://input.fontbureau.com/)
+- [docker](https://docs.docker.com/docker-for-mac/install/)
 
 
 ### OS X only
