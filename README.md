@@ -27,48 +27,6 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
     $ rcup -v
     ```
 
-
-## Other things to install
-
-- ack
-- zsh
-- nvm
-- macvim
-- xcode
-- elm-format
-- kaleidoscope & ksdiff
-- `brew cask install haskell-platform`
-- `cabal install ghc-mod`
-- [input font](http://input.fontbureau.com/)
-- [docker](https://docs.docker.com/docker-for-mac/install/)
-
-
-### OS X only
-
-- ghc with global packages
-    ```bash
-    $ nix-env -iA nixpkgs.myHaskellEnv
-    ```
-- rbenv
-- reattach-to-user-namespace
-- tmux
-- open Tomorrow.terminal and set to default
-
-
-### NixOS only
-
-- dmenu
-- linuxPackages.virtualboxGuestAdditions
-- ruby
-- vim
-- xmonad
-
-
-## Miscellaneous setup
-
-On OS X, change Terminal.app's starting command to zsh.
-
-
 ## Add a Vim plugin
 
 ```bash
