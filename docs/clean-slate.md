@@ -3,24 +3,30 @@
 - [ ] Change caps lock to ctrl
 - [ ] Change computer name
 
+
 - [ ] Download [1Password](https://1password.com/)
 - [ ] Download [Dropbox](https://www.dropbox.com/install#downloaded)
 - [ ] Sync 1Password folder (takes forever)
 - [ ] Install [homebrew](https://brew.sh/)
 
-- [ ] Follow [README](/README.md)
-
-- [ ] Install [input font](http://input.fontbureau.com/)
-- [ ] Install [kaleidoscope](https://www.kaleidoscopeapp.com/) free trial
-- [ ] Install [ksdiff](https://www.kaleidoscopeapp.com/ksdiff2)
-
-- [ ] Install Xcode from the App Store
 
 - [ ] `ssh-keygen -t rsa -b 4096 -C "capicue@gmail.com"`
 - [ ] `chmod 600 ~/.ssh/id_rsa.pub`
 - [ ] `ssh-add -K ~/.ssh/id_rsa`
 - [ ] `pbcopy < ~/.ssh/id_rsa.pub`
 - [ ] Add ssh key to GitHub
+
+
+- [ ] Follow [README](/README.md)
+
+
+- [ ] Install [input font](http://input.fontbureau.com/)
+- [ ] Install [kaleidoscope](https://www.kaleidoscopeapp.com/) free trial
+- [ ] Install [ksdiff](https://www.kaleidoscopeapp.com/ksdiff2)
+
+
+- [ ] Install Xcode from the App Store
+
 
 - [ ] `brew install git`
 - [ ] `brew install ack`
@@ -40,6 +46,8 @@
 - [ ] `brew install reattach-to-user-namespace`
 - [ ] `brew install tmux`
 
+
 - [ ] open Tomorrow.terminal and set to default
+
 
 - [ ] Install Amphetamine from the App Store
