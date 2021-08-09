@@ -7,6 +7,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/Users/capicue/.cabal/bin:$PATH"
 export PATH=".cabal-sandbox/bin:$PATH"
 export PATH="node_modules/.bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 
 alias be='bundle exec'
 alias ghci="ghci -v0" # remove loading messages
