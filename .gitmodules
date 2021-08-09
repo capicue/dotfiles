@@ -96,4 +96,4 @@
   branch = master
 [submodule "vim/bundle/dragvisuals.vim"]
 	path = vim/bundle/dragvisuals.vim
-	url = git@github.com:shiyuanpei/dragvisuals.vim.git
+	url = git@github.com:mariappan/dragvisuals.vim.git
