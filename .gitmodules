@@ -94,6 +94,3 @@
 	path = vim/bundle/Dockerfile.vim
 	url = git@github.com:ekalinin/Dockerfile.vim.git
   branch = master
-[submodule "vim/bundle/dragvisuals.vim"]
-	path = vim/bundle/dragvisuals.vim
-	url = git@github.com:mariappan/dragvisuals.vim.git
