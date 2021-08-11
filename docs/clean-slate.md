@@ -1,7 +1,7 @@
 # Set up a new computer
 
 - [ ] Change caps lock to ctrl
-- [ ] Change computer name
+- [ ] Change [computer name](http://www.theplantlist.org/browse/-/-/)
 
 
 - [ ] Download [1Password](https://1password.com/)
@@ -10,11 +10,8 @@
 - [ ] Install [homebrew](https://brew.sh/)
 
 
-- [ ] `ssh-keygen -t rsa -b 4096 -C "capicue@gmail.com"`
-- [ ] `chmod 600 ~/.ssh/id_rsa.pub`
-- [ ] `ssh-add -K ~/.ssh/id_rsa`
-- [ ] `pbcopy < ~/.ssh/id_rsa.pub`
-- [ ] Add ssh key to GitHub
+- [ ] [generate ssh keys](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [ ] [add ssh keys to GitHub](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 
 - [ ] Follow [README](/README.md)
@@ -48,6 +45,3 @@
 
 
 - [ ] open Tomorrow.terminal and set to default
-
-
-- [ ] Install Amphetamine from the App Store

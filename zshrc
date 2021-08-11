@@ -17,4 +17,12 @@ if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then
   . $LUNCHY_DIR/lunchy-completion.zsh
 fi
 
+# configure homebrew completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+
 setopt dvorak
