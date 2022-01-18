@@ -31,7 +31,7 @@ These dotfiles are managed with [rcm](https://github.com/thoughtbot/rcm).
 
 ```bash
 $ cd vim/bundle
-$ git submodule add git@github.com:scrooloose/nerdcommenter.git
+$ git submodule add https://github.com/scrooloose/nerdcommenter.git
 $ cd ../..
 $ rcup -v
 ```

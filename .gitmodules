@@ -1,42 +1,42 @@
 [submodule "zprezto"]
 	path = zprezto
-	url = git@github.com:sorin-ionescu/prezto.git
+	url = https://github.com/sorin-ionescu/prezto.git
   branch = master
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
   branch = master
 [submodule "vim/bundle/vim-fugitive"]
 	path = vim/bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
   branch = master
 [submodule "vim/bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
-	url = git@github.com:airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter.git
   branch = master
 [submodule "vim/bundle/vim-trailing-whitespace"]
 	path = vim/bundle/vim-trailing-whitespace
-	url = git@github.com:bronson/vim-trailing-whitespace.git
+	url = https://github.com/bronson/vim-trailing-whitespace.git
   branch = master
 [submodule "vim/bundle/tagbar"]
 	path = vim/bundle/tagbar
-	url = git@github.com:majutsushi/tagbar.git
+	url = https://github.com/majutsushi/tagbar.git
   branch = master
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
-	url = git@github.com:mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
   branch = master
 [submodule "vim/bundle/matchit"]
 	path = vim/bundle/matchit
-	url = git@github.com:tmhedberg/matchit.git
+	url = https://github.com/tmhedberg/matchit.git
   branch = master
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
-	url = git@github.com:ervandew/supertab.git
+	url = https://github.com/ervandew/supertab.git
   branch = master
 [submodule "vim/bundle/vim-snipmate"]
 	path = vim/bundle/vim-snipmate
-	url = git@github.com:garbas/vim-snipmate.git
+	url = https://github.com/garbas/vim-snipmate.git
   branch = master
 [submodule "vim/bundle/tlib_vim"]
 	path = vim/bundle/tlib_vim
@@ -52,45 +52,45 @@
   branch = master
 [submodule "vim/bundle/Align"]
 	path = vim/bundle/Align
-	url = git@github.com:vim-scripts/Align.git
+	url = https://github.com/vim-scripts/Align.git
   branch = master
 [submodule "vim/bundle/vim-pathogen-tomorrow-theme"]
 	path = vim/bundle/vim-pathogen-tomorrow-theme
-	url = git@github.com:coryf/vim-pathogen-tomorrow-theme.git
+	url = https://github.com/coryf/vim-pathogen-tomorrow-theme.git
   branch = master
 [submodule "vim/bundle/vim-nix"]
 	path = vim/bundle/vim-nix
-	url = git@github.com:LnL7/vim-nix.git
+	url = https://github.com/LnL7/vim-nix.git
   branch = master
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
-	url = git@github.com:ctrlpvim/ctrlp.vim.git
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
   branch = master
 [submodule "vim/bundle/elm-vim"]
 	path = vim/bundle/elm-vim
-	url = git@github.com:ElmCast/elm-vim.git
+	url = https://github.com/ElmCast/elm-vim.git
   branch = master
 [submodule "vim/bundle/vim-less"]
 	path = vim/bundle/vim-less
-	url = git@github.com:genoma/vim-less.git
+	url = https://github.com/genoma/vim-less.git
   branch = master
 [submodule "vim/bundle/vimproc.vim"]
 	path = vim/bundle/vimproc.vim
-	url = git@github.com:Shougo/vimproc.vim.git
+	url = https://github.com/Shougo/vimproc.vim.git
   branch = master
 [submodule "vim/bundle/ghcmod-vim"]
 	path = vim/bundle/ghcmod-vim
-	url = git@github.com:eagletmt/ghcmod-vim.git
+	url = https://github.com/eagletmt/ghcmod-vim.git
   branch = master
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
-	url = git@github.com:scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
   branch = master
 [submodule "vim/bundle/vim-autoformat"]
 	path = vim/bundle/vim-autoformat
-	url = git@github.com:Chiel92/vim-autoformat.git
+	url = https://github.com/Chiel92/vim-autoformat.git
   branch = master
 [submodule "vim/bundle/Dockerfile.vim"]
 	path = vim/bundle/Dockerfile.vim
-	url = git@github.com:ekalinin/Dockerfile.vim.git
+	url = https://github.com/ekalinin/Dockerfile.vim.git
   branch = master
