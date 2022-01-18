@@ -6,6 +6,7 @@ filetype plugin indent on
 "" Settings
 ""
 
+set t_Co=256
 colorscheme Tomorrow-Night-Bright " Change colorscheme
 set guifont=InputMono\ Thin:h12   " Change font
 set guioptions-=L                 " Remove left scrollbar
