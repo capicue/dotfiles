@@ -6,19 +6,22 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # enables shims and autocompletion
-if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if command -v rbenv &> /dev/null; then eval "$(rbenv init - zsh)"; fi
+if command -v pyenv &> /dev/null; then eval "$(pyenv init -)"; fi
 
 # add hook for https://github.com/direnv/direnv
-if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
+if command -v direnv &> /dev/null; then eval "$(direnv hook zsh)"; fi
 
-LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
-if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then
-  . $LUNCHY_DIR/lunchy-completion.zsh
+if command -v gem &> /dev/null
+then
+  LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
+  if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then
+    . $LUNCHY_DIR/lunchy-completion.zsh
+  fi
 fi
 
 # configure homebrew completions
-if type brew &>/dev/null; then
+if command -v brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
   autoload -Uz compinit
