@@ -190,3 +190,5 @@ else
 endif
 
 let g:NERDSpaceDelims = 1
+
+set term=screen-256color
