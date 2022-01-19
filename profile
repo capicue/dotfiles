@@ -1,13 +1,19 @@
 export EDITOR=vim
-export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/bin:$PATH"
-export PATH="/sbin:$PATH"
-export PATH="/usr/sbin:$PATH"
-export PATH="/usr/local/bin:$PATH"
-export PATH="$HOME/.cabal/bin:$PATH"
-export PATH=".cabal-sandbox/bin:$PATH"
-export PATH="node_modules/.bin:$PATH"
-export PATH="/opt/homebrew/bin:$PATH"
+
+if [ -d "$HOME/bin" ] ; then
+  PATH="$HOME/bin:$PATH"
+fi
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+if [ -d "/opt/homebrew/bin" ] ; then
+  PATH="/opt/homebrew/bin:$PATH"
+fi
+
+PATH="node_modules/.bin:$PATH"
+PATH="/sbin:$PATH"
+PATH="/usr/sbin:$PATH"
+PATH="/usr/local/bin:$PATH"
 
 alias be='bundle exec'
 alias ghci="ghci -v0" # remove loading messages
