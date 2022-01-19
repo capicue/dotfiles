@@ -28,4 +28,6 @@ if command -v brew &>/dev/null; then
   compinit
 fi
 
+TERM=screen-256color
+
 setopt dvorak
