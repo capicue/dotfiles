@@ -189,3 +189,8 @@ endif
 let g:NERDSpaceDelims = 1
 
 set term=screen-256color
+
+" NERDTree
+
+" auto open NERDTree if no argument is passed
+autocmd vimenter * if !argc() | NERDTree | endif
