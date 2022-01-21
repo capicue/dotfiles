@@ -51,10 +51,7 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,
 vmap  <expr>  <C-DOWN>   DVB_Drag('down')
 vmap  <expr>  <C-UP>     DVB_Drag('up')
 
-if has("gui_macvim") && has("gui_running")
-  " Command-Shift-F on OSX
-  map <D-F> :Ack<space>
-endif
+map <C-F> :Ack<space>
 
 map <C-n> :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 nmap <F8> :TagbarToggle<CR>
