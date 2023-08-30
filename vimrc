@@ -194,3 +194,6 @@ set term=screen-256color
 
 " auto open NERDTree if no argument is passed
 autocmd vimenter * if !argc() | NERDTree | endif
+
+" Fix SnipMate deprecation warning
+let g:snipMate = { 'snippet_version' : 1 }
